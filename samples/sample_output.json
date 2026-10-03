@@ -1,0 +1,33 @@
+{
+  "not_a_form": false,
+  "form_name": "Sample: Address Update Request Form",
+  "purpose": "Ye form apna address badalwane ke liye hai. Isme aap naya address aur uska proof dete ho.",
+  "fields": [
+    {"field": "Full Name", "meaning": "Aapka poora naam", "what_to_fill": "Wahi naam likho jo aapke ID proof par hai, spelling same rakho."},
+    {"field": "Date of Birth", "meaning": "Aapki janm tithi", "what_to_fill": "DD/MM/YYYY format mein, ID proof ke hisaab se."},
+    {"field": "Present Address", "meaning": "Aapka abhi ka pata", "what_to_fill": "House number, gali, area, city, state aur PIN code poora likho."},
+    {"field": "New Address", "meaning": "Jo naya pata aap register karwana chahte ho", "what_to_fill": "Address proof document par jaisa likha hai bilkul waisa likho."},
+    {"field": "Mobile Number", "meaning": "Aapka contact number", "what_to_fill": "Aisa number do jo aap use karte ho, OTP aa sakta hai."},
+    {"field": "Declaration & Signature", "meaning": "Aap confirm karte ho ki jankari sahi hai", "what_to_fill": "Box ke andar hi sign karo, bahar nahi."}
+  ],
+  "documents_needed": [
+    "Identity proof (photo ID)",
+    "Address proof (naye address ka)",
+    "Passport size photo",
+    "Mobile number (OTP ke liye)"
+  ],
+  "common_mistakes": [
+    "Naam ki spelling ID proof se alag likh dena",
+    "Address proof par jo address hai usse alag address likh dena",
+    "Signature box ke bahar karna",
+    "Photocopy dhundhli ya adhoori dena"
+  ],
+  "steps": [
+    "Saare documents ki saaf photocopy ya scan ready rakho",
+    "Form capital letters mein, kaale ya neele pen se bharo",
+    "Naya address proof ke hisaab se likho",
+    "Declaration par sign karo",
+    "Form aur documents jama karo aur receipt sambhal ke rakho"
+  ]
+}
+
