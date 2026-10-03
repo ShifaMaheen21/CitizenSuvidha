@@ -1,4 +1,4 @@
-# FormSaathi
+# CitizenSuvidha
 
 Take a photo of a government form. **Gemma 4** reads it directly and explains what each
 field means, which documents you need, common mistakes, and the steps to apply.
