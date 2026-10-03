@@ -1,33 +1,57 @@
 {
   "not_a_form": false,
-  "form_name": "Sample: Address Update Request Form",
-  "purpose": "Ye form apna address badalwane ke liye hai. Isme aap naya address aur uska proof dete ho.",
+  "form_name": "Application for Resident Address Update / Correction",
+  "purpose": "Used to officially request an update or correction to your residential address on record. Requires valid proof of residence and identity verification.",
   "fields": [
-    {"field": "Full Name", "meaning": "Aapka poora naam", "what_to_fill": "Wahi naam likho jo aapke ID proof par hai, spelling same rakho."},
-    {"field": "Date of Birth", "meaning": "Aapki janm tithi", "what_to_fill": "DD/MM/YYYY format mein, ID proof ke hisaab se."},
-    {"field": "Present Address", "meaning": "Aapka abhi ka pata", "what_to_fill": "House number, gali, area, city, state aur PIN code poora likho."},
-    {"field": "New Address", "meaning": "Jo naya pata aap register karwana chahte ho", "what_to_fill": "Address proof document par jaisa likha hai bilkul waisa likho."},
-    {"field": "Mobile Number", "meaning": "Aapka contact number", "what_to_fill": "Aisa number do jo aap use karte ho, OTP aa sakta hai."},
-    {"field": "Declaration & Signature", "meaning": "Aap confirm karte ho ki jankari sahi hai", "what_to_fill": "Box ke andar hi sign karo, bahar nahi."}
+    {
+      "field": "Full Legal Name",
+      "meaning": "Your complete legal name as registered on official identity documents.",
+      "what_to_fill": "Write in BLOCK LETTERS exactly as printed on your government photo ID. Do not use abbreviations or initials."
+    },
+    {
+      "field": "Date of Birth",
+      "meaning": "Your official date of birth for identity cross-verification.",
+      "what_to_fill": "Enter in DD/MM/YYYY format matching your birth certificate or primary photo ID."
+    },
+    {
+      "field": "Existing / Old Address",
+      "meaning": "The previous residential address currently registered in the database.",
+      "what_to_fill": "Include flat/house number, street, locality, district, state, and 6-digit PIN code."
+    },
+    {
+      "field": "New Residential Address",
+      "meaning": "The complete address where you currently reside and want to receive correspondence.",
+      "what_to_fill": "Ensure every line matches your accompanying Address Proof document word-for-word."
+    },
+    {
+      "field": "Mobile Number & Email",
+      "meaning": "Active contact details to receive verification OTPs and application tracking alerts.",
+      "what_to_fill": "Provide a 10-digit mobile number currently in your possession to complete verification."
+    },
+    {
+      "field": "Applicant Signature & Date",
+      "meaning": "Legal declaration certifying that all provided details and proofs are genuine.",
+      "what_to_fill": "Sign cleanly strictly inside the designated border. Signatures extending past boundaries will be flagged."
+    }
   ],
   "documents_needed": [
-    "Identity proof (photo ID)",
-    "Address proof (naye address ka)",
-    "Passport size photo",
-    "Mobile number (OTP ke liye)"
+    "Government-issued Photo ID (Aadhaar / Voter ID / Passport / Driving Licence)",
+    "Valid Address Proof for New Address (Electricity Bill / Rent Agreement / Bank Passbook under 3 months old)",
+    "Recent Passport-Size Color Photograph (White background)",
+    "Active Mobile Number (Capable of receiving SMS OTP verification)"
   ],
   "common_mistakes": [
-    "Naam ki spelling ID proof se alag likh dena",
-    "Address proof par jo address hai usse alag address likh dena",
-    "Signature box ke bahar karna",
-    "Photocopy dhundhli ya adhoori dena"
+    "Name spelling mismatch between the form and attached ID proof.",
+    "Providing an address proof older than 3 months (utility bills must be recent).",
+    "Signing outside or across the designated signature bounding box.",
+    "Submitting blurry, cropped, or partially obscured document photocopies.",
+    "Leaving mandatory fields blank instead of writing 'N/A' if not applicable."
   ],
   "steps": [
-    "Saare documents ki saaf photocopy ya scan ready rakho",
-    "Form capital letters mein, kaale ya neele pen se bharo",
-    "Naya address proof ke hisaab se likho",
-    "Declaration par sign karo",
-    "Form aur documents jama karo aur receipt sambhal ke rakho"
+    "Prepare self-attested photocopies of your valid photo ID and recent address proof.",
+    "Complete the form in legible BLOCK LETTERS using black or dark blue ballpoint ink.",
+    "Affix your recent passport-size photograph securely in the top-right box.",
+    "Carefully review all entries against your supporting documents before signing.",
+    "Submit the dossier at your nearest authorized enrollment centre and collect your stamped Acknowledgement Receipt with tracking URN."
   ]
 }
-
